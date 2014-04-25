@@ -1,11 +1,12 @@
 %define upstream_name    Dist-Zilla-PluginBundle-IDOPEREL
-%define upstream_version 0.1
+%define upstream_version 1.000000
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	IDOPEREL's plugin bundle for Dist::Zilla
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -57,4 +58,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes META.yml LICENSE META.json
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
