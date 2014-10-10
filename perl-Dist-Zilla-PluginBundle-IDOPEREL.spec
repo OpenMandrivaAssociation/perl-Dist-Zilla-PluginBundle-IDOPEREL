@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 Summary:	IDOPEREL's plugin bundle for Dist::Zilla
 License:	GPL+ or Artistic
